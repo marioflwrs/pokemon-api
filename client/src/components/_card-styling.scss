@@ -1,0 +1,94 @@
+//variables for each pokemon type color;
+$card-font-color: #fff;
+
+$fire-pokemon-color: #F08030;
+$normal-pokemon-color: #A8A878;
+$water-pokemon-color: #6890F0;
+$grass-pokemon-color: #78C850;
+$electric-pokemon-color: #F8D030;
+$ground-pokemon-color: #E0C068;
+$poison-pokemon-color: #A040A0;
+$bug-pokemon-color: #A8B820;
+$fairy-pokemon-color: #FFAEC9;
+$fighting-pokemon-color: #C03028;
+$psychic-pokemon-color: #F85888;
+$rock-pokemon-color: #B8A038;
+$ghost-pokemon-color: #705898;
+$ice-pokemon-color: #98D8D8;
+$dragon-pokemon-color: #7038F8;
+
+.grass {
+  background-color: $grass-pokemon-color;
+  color: $card-font-color;
+}
+
+.fire {
+  background-color: $fire-pokemon-color;
+  color: $card-font-color;
+}
+
+.water {
+  background-color: $water-pokemon-color;
+  color: $card-font-color;
+}
+
+.bug {
+  background-color: $bug-pokemon-color;
+  color: $card-font-color;
+}
+
+.psychic {
+  background-color: $psychic-pokemon-color;
+  color: $card-font-color;
+}
+
+
+.normal {
+  background-color: $normal-pokemon-color;
+  color: $card-font-color;
+}
+
+.poison {
+  background-color: $poison-pokemon-color;
+  color: $card-font-color;
+}
+
+.fairy {
+  background-color: $fairy-pokemon-color;
+  color: $card-font-color;
+}
+
+.ground {
+  background-color: #E0C068;
+  color: $card-font-color;
+}
+
+.fighting {
+  background-color: $fighting-pokemon-color;
+  color: $card-font-color;
+}
+
+.ghost {
+  background-color: $ghost-pokemon-color;
+  color: $card-font-color;
+}
+
+.electric {
+  background-color: $electric-pokemon-color;
+  color: $card-font-color;
+}
+
+.rock {
+  background-color: $rock-pokemon-color;
+  color: $card-font-color;
+}
+
+.ice {
+  background-color: $ice-pokemon-color;
+  color: $card-font-color;
+}
+
+.dragon {
+  background-color: $dragon-pokemon-color;
+  color: $card-font-color;
+}

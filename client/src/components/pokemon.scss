@@ -1,3 +1,6 @@
+@import './_card-styling.scss';
+
+
 .pokemon-component-container {
 
   display: flex;
@@ -44,8 +47,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
-      
+    align-items: center; 
   
     .poke-card-container {
       

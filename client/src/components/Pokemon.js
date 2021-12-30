@@ -10,7 +10,7 @@ export default function Pokemon() {
   const [pokemon, setPokemon] = useState([]);
   const [searchPokemon, setSearchPokemon] = useState('');
   const [pokemonType, setPokemonType] = useState('');
-  // const [cardColor, setCardColor] = useState('red');
+  const [cardColor, setCardColor] = useState('');
 
 
   
@@ -31,6 +31,7 @@ export default function Pokemon() {
       .then((results) => {
         setPokemon(results.map((res) => res.data));
         setPokemonType(results.map((res) => res.data.types[0].type.name));
+        setCardColor(results.map((res) => res.data.types[0].type.name));
       })
 
   }, [])
@@ -59,10 +60,10 @@ export default function Pokemon() {
             //searches through the list POKEAPI containing any string characters placed in the input field.
             return val;
           } //returning false to avoid .filter() warning.
-           return false;
+          return false;
         }).map(p => ( 
 
-          <div className="poke-card-container" key={p.name}>
+          <div className={"poke-card-container " + cardColor[p.id-1]} key={p.name}>
             <img src={p.sprites.front_default} alt="" />
             <h1>{p.name}</h1>
             <h1>{pokemonType[p.id-1]}</h1>
